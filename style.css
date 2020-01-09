@@ -51,7 +51,7 @@ article {
     
 }
 section.shop {
-    border: dotted 1px grey;
+    /* border: dotted 1px grey; */
     border-radius: 5%;
     width: 30%;
     align-content: center;
@@ -61,14 +61,36 @@ section.shop {
     color: white;
     opacity: .67;
     font-size: 20px;
+    margin-top: 10px;
 }
 
-section.shop:hover {
+section.shop:hover, img.shop:hover {
     background-color: white;
     color: black;
     opacity: .67;
-    border-radius:75%;
+    border-radius:25%;
     font-style: italic;
     box-shadow: 1px 1px;
+    border-image-width: 70%;
+    transition: 1s;
+    
+    
 }
+img.shop{
+    width:100%;
+    border-radius: 30%;
+    overflow: hidden;
+    
+}
+/* img.shop:hover {
+    width:70%;
+    transition: 1s;
+    overflow: hidden; */
+
+section.shop h4 {
+    color: midnightblue;
+    position: relative;
+    text-align: center;
+}
+
 
