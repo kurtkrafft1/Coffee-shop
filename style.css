@@ -53,7 +53,7 @@ article {
 section.shop {
     /* border: dotted 1px grey; */
     border-radius: 5%;
-    width: 30%;
+    /* width: 30%; */
     align-content: center;
     font-family: 'Nanum Gothic', sans-serif;
     padding: 4px;
@@ -62,6 +62,7 @@ section.shop {
     opacity: .67;
     font-size: 20px;
     margin-top: 10px;
+    flex: 30% 1 0;
 }
 
 section.shop:hover, img.shop:hover {
@@ -87,10 +88,10 @@ img.shop{
     transition: 1s;
     overflow: hidden; */
 
-section.shop h4 {
+/* section.shop h4 {
     color: midnightblue;
     position: relative;
     text-align: center;
-}
+} */
 
 
